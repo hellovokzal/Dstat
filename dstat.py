@@ -13,4 +13,4 @@ def index():
     return str(num)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='128.116.123.3', host=80)
