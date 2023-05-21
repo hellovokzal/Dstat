@@ -13,4 +13,8 @@ def index():
     return str(num)
 
 if __name__ == '__main__':
-    app.run(host='128.116.123.3', port=80)
+    while True:
+        try:
+            app.run(host='128.116.123.3', port=80)
+        except:
+            app.run(host='128.116.123.3', port=80)
